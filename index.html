@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="90">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Quicksand:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+  background: #e0fbfc;
+  color: #3d5a80;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #98c1d9;
+  border-radius: 15px;
+}
+
+.header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+.header p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #3d5a80;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #e0fbfc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #98c1d9;
+  color: #fff;
+}
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 25%;
+  padding-right: 10px;
+}
+
+/* Right column / center content */
+.rightcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 10px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Card headers/subtitles */
+.card h2, .card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #3d5a80;
+}
+
+.card h5 {
+  font-family: 'Quicksand', sans-serif;
+  color: #3d5a80;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #98c1d9;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Make images responsive */
+.fakeimg img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #3d5a80;
+  color: #e0fbfc;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Welcome to My page ❤︎</h1>
+  <p>Discover my world of interests and recommendations! ⋆˚࿔</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home .ᐟ</a>
+  <a href="#">About .ᐟ</a>
+  <a href="#">Contact .ᐟ</a>
+  <a href="#" style="float:right">Blog .ᐟ</a>
+</div>
+
+<div class="row">
+
+  <!-- Left column -->
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg"><img src="aboutme2.jpg" alt="About Me"></div>
+      <p>Hello! I'm Zyv Ishe, a student who loves exploring movies, games, and shows. Welcome to my little corner of the internet ✦!</p>
+	  <p>౨౿　ʙɪʀᴛʜᴅᴀʏ: 𝑵𝒐𝒗𝒆𝒎𝒃𝒆𝒓 𝟏𝟔 🎂</p>
+	  <p>꒰ ⟡ ⁠꒱ ᴀɢᴇ: 𝟏6  ๋࣭  ˖✩</p>
+    </div>
+    <div class="card">
+      <h2>Me & Friends</h2>
+	     <p>Here are some fun memories and adventures with my friends <3</p>
+      <div class="fakeimg"><img src="Gradpic.jpg" alt="Friends"></div>
+      <p>Graduation pictorial 11/27/25</p>
+	    <div class="fakeimg"><img src="Dandysworldwfriends.png" alt="Friends"></div>
+      <p>Dandy's world (Roblox game) 11/11/25</p>
+	   <div class="fakeimg"><img src="At school w baes.jpg" alt="Friends"></div>
+      <p>At school (9th grade) 10/14/24</p>
+    </div>
+    <div class="card">
+      <h2>Socials</h2>
+      <div class="fakeimg"><img src="Usagicutie.jpg" alt="Socials"></div>
+      <p>Follow me on: 
+        <a href="https://twitter.com" target="_blank">Twitter</a> | 
+        <a href="https://instagram.com" target="_blank">Instagram</a> | 
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+		<a href="https://discord.com" target="_blank">Discord</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Right column -->
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Interests ✦</h2>
+      <div class="fakeimg"><img src="https://i.pinimg.com/originals/e0/a0/ca/e0a0ca25b7b912adc854aa2a9a5c3c7a.gif" alt="Interests"></div>
+      <p>Check out my favorite:
+        <ul>
+          <li><a href="https://www.imdb.com" target="_blank">Movies</a></li>
+          <li><a href="https://www.ign.com/games" target="_blank">Games</a></li>
+          <li><a href="https://www.netflix.com" target="_blank">Shows</a></li>
+		   <li><a href="https://www.netflix.com" target="_blank">Artists</a></li>
+		   <li><a href="https://www.netflix.com" target="_blank">Music</a></li>
+        </ul>
+      </p>
+    </div>
+    <div class="card">
+      <h2>Recommendations ✦ </h2>
+      <div class="fakeimg"><img src="https://i.pinimg.com/originals/39/12/ad/3912ade472c79ff580f08aee1f299578.gif" alt="Recommendations"></div>
+      <p>Some of my favs I would like to share with you!
+        <ul>
+          <li><a href="https://www.imdb.com" target="_blank">Movies</a></li>
+          <li><a href="https://www.ign.com/games" target="_blank">Games</a></li>
+          <li><a href="https://www.netflix.com" target="_blank">Shows</a></li>
+		   <li><a href="https://www.netflix.com" target="_blank">Artists</a></li>
+		   <li><a href="https://www.netflix.com" target="_blank">Music</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>"The world is full of magical things, patiently waiting for our senses to grow sharper." 🌸</p>
+</div>
+
+</body>
+</html>
